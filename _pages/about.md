@@ -34,7 +34,7 @@ I am an undergraduate student in [Computer Science and Engineering](https://cs.k
   **Minjae Kim**, Jinheon Baek, Soyeong Jeong, and Sung Ju Hwang  
   *arXiv preprint, 2026*
 
-- [**Enhancing Multi-Hop Complex Query Retrieval Efficiency through the Integration of RAG and Graph RAG**](https://drive.google.com/file/d/190aym_K1JMrDS7daU3w9wTrN7uTok5FL/view)  
+- [**Enhancing Multi-Hop Complex Query Retrieval Efficiency through the Integration of RAG and Graph RAG**](/pdfs/HCLT_%EB%85%BC%EB%AC%B8.pdf)  
   Seong-min Lee, He-eun Kim, Dong-young Lee, Min-seon Kang, **Minjae Kim**, Soo-yeol Yang, and Young-sook Hwang  
   *Annual Conference on Human and Cognitive Language Technology (HCLT), 2025*
 
