@@ -15,6 +15,28 @@ I am an undergraduate student in [Computer Science and Engineering](https://cs.k
 - **Jun. 2026** — Released [MemRefine](https://arxiv.org/abs/2606.13177), a framework for storage-budgeted long-term agent memory compression.
 - **Dec. 2025** — Joined the [MLAI Lab](https://www.mlai-kaist.com/) at KAIST as a research intern.
 
+# Research Experience
+
+<div class="experience-list">
+  <div class="experience-item">
+    <div class="experience-date">Dec. 2025 – Present</div>
+    <div class="experience-content">
+      <div class="experience-title">Research Intern, <a href="https://www.mlai-kaist.com/">MLAI Lab at KAIST</a></div>
+      <div class="experience-meta">KAIST Kim Jaechul Graduate School of AI <span>·</span> Seoul, Republic of Korea</div>
+      <div class="experience-description">Research on long-term agent memory, multimodal memory, and efficient LLM-based agents under the supervision of <a href="http://www.sungjuhwang.com/">Prof. Sung Ju Hwang</a>.</div>
+    </div>
+  </div>
+
+  <div class="experience-item">
+    <div class="experience-date">May 2025 – Nov. 2025</div>
+    <div class="experience-content">
+      <div class="experience-title">Researcher / Team Lead, Industry-Academia Project</div>
+      <div class="experience-meta">Korea University, in collaboration with CrowdWorks <span>·</span> Seoul, Republic of Korea</div>
+      <div class="experience-description">Led a five-member team developing an Agentic RAG system for complex multi-hop retrieval and report generation.</div>
+    </div>
+  </div>
+</div>
+
 # Publications
 
 - [**MemRefine: LLM-Guided Compression for Long-Term Agent Memory**](https://arxiv.org/abs/2606.13177)  
