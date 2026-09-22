@@ -52,4 +52,3 @@ I am an undergraduate student in [Computer Science and Engineering](https://cs.k
 - **Top Excellence Award** *(2024)*  
   2024 Re:ALThon, Korea University SW-Centered University Hackathon
 
-<p class="template-credit">Based on <a href="https://github.com/RayeRen/acad-homepage.github.io">AcadHomepage</a>.</p>
