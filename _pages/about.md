@@ -21,7 +21,7 @@ I am an undergraduate student in [Computer Science and Engineering](https://cs.k
   **Minjae Kim**, Jinheon Baek, Soyeong Jeong, and Sung Ju Hwang  
   *arXiv preprint, 2026*
 
-# Awards and Honors
+# Honors & Awards
 
 - **Top Excellence Award / President of IITP Award** *(2025)*  
   2025 SW-Centered University Outstanding Works Competition  
