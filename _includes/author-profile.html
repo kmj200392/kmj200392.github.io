@@ -1,0 +1,28 @@
+<div class="profile-box" itemscope itemtype="https://schema.org/Person">
+  {% if site.author.avatar %}
+    <img class="profile-avatar" src="{{ site.author.avatar }}" alt="{{ site.author.name }}">
+  {% endif %}
+
+  <h1 class="profile-name" itemprop="name">{{ site.author.name }}</h1>
+  {% if site.author.bio %}
+    <p class="profile-bio">{{ site.author.bio }}</p>
+  {% endif %}
+
+  <div class="profile-links">
+    {% if site.author.email %}
+      <a href="mailto:{{ site.author.email }}">Email</a>
+    {% endif %}
+    {% if site.author.github %}
+      <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+    {% endif %}
+    {% if site.author.googlescholar %}
+      <a href="{{ site.author.googlescholar }}">Google Scholar</a>
+    {% endif %}
+    {% if site.author.linkedin %}
+      <a href="{{ site.author.linkedin }}">LinkedIn</a>
+    {% endif %}
+    {% if site.author.cv %}
+      <a href="{{ site.author.cv | relative_url }}">CV</a>
+    {% endif %}
+  </div>
+</div>
