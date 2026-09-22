@@ -21,12 +21,13 @@ I am an undergraduate student in [Computer Science and Engineering](https://cs.k
   **Minjae Kim**, Jinheon Baek, Soyeong Jeong, and Sung Ju Hwang  
   *arXiv preprint, 2026*
 
-# Honors & Awards
+# Awards and Honors
 
-- **2nd Place & People's Choice Award**, GDG Korea–Japan Hackathon, 2026
-- **1st Place**, Samsung Research SCPC AI Challenge, 2025
-- **Grand Prize**, Inthon, 2025
-- **Grand Prize**, Re:ALThon, 2025
-- **Excellence Award**, Re:ALThon, 2024
+- **Top Excellence Award / President of IITP Award** *(2025)*  
+  2025 SW-Centered University Outstanding Works Competition  
+  *Awarded by the Institute for Information & Communications Technology Planning & Evaluation (IITP)*
+
+- **Top Excellence Award** *(2024)*  
+  2024 Re:ALThon, Korea University SW-Centered University Hackathon
 
 <p class="template-credit">Based on <a href="https://github.com/RayeRen/acad-homepage.github.io">AcadHomepage</a>.</p>
