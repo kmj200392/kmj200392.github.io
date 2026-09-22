@@ -15,6 +15,12 @@ I am an undergraduate student in [Computer Science and Engineering](https://cs.k
 - **Jun. 2026** — Released [MemRefine](https://arxiv.org/abs/2606.13177), a framework for storage-budgeted long-term agent memory compression.
 - **Dec. 2025** — Joined the [MLAI Lab](https://www.mlai-kaist.com/) at KAIST as a research intern.
 
+# Publications
+
+- [**MemRefine: LLM-Guided Compression for Long-Term Agent Memory**](https://arxiv.org/abs/2606.13177)  
+  **Minjae Kim**, Jinheon Baek, Soyeong Jeong, and Sung Ju Hwang  
+  *arXiv preprint, 2026*
+
 # Research Experience
 
 <div class="experience-list">
@@ -36,12 +42,6 @@ I am an undergraduate student in [Computer Science and Engineering](https://cs.k
     </div>
   </div>
 </div>
-
-# Publications
-
-- [**MemRefine: LLM-Guided Compression for Long-Term Agent Memory**](https://arxiv.org/abs/2606.13177)  
-  **Minjae Kim**, Jinheon Baek, Soyeong Jeong, and Sung Ju Hwang  
-  *arXiv preprint, 2026*
 
 # Honors & Awards
 
