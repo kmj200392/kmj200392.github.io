@@ -18,7 +18,6 @@ My research focuses on developing **more capable, efficient, and adaptive large 
     <div class="experience-content">
       <div class="experience-title"><a href="https://www.korea.edu/">Korea University</a></div>
       <div class="experience-role">B.E. in <a href="https://cs.korea.ac.kr/cs/index.do">Computer Science and Engineering</a></div>
-      <div class="experience-description">Cumulative GPA: 3.98/4.50 (94.8/100)</div>
     </div>
   </div>
 </div>
