@@ -73,7 +73,7 @@ I am an undergraduate student in [Computer Science and Engineering](https://cs.k
     <div class="experience-content">
       <div class="experience-title">37th Korea University Ae-gineung Club Association</div>
       <div class="experience-role">President</div>
-      <div class="experience-description">Leading student organizations, operations, events, and communication.</div>
+      <div class="experience-description">Coordinating affiliated student clubs and supporting their operations, events, and communication.</div>
     </div>
   </div>
 
