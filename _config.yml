@@ -1,8 +1,8 @@
 title: "Minjae Kim"
 description: "Research on capable, efficient, and adaptive LLM-based systems."
-repository: "kmj200392/minjaekim.github.io"
+repository: "kmj200392/kmj200392.github.io"
 url: "https://kmj200392.github.io"
-baseurl: "/minjaekim.github.io"
+baseurl: ""
 
 markdown: kramdown
 encoding: "utf-8"
@@ -32,8 +32,8 @@ author:
   name: "Minjae Kim"
   avatar: "https://avatars.githubusercontent.com/u/154658355?v=4"
   bio: "Undergraduate Student at Korea University"
-  email:
+  email: "minjae_kim@kaist.ac.kr"
   github: "kmj200392"
-  googlescholar:
-  linkedin:
+  googlescholar: "https://scholar.google.com/citations?hl=ko&user=acKBQrMAAAAJ"
+  linkedin: "https://www.linkedin.com/in/kmj200392"
   cv:
