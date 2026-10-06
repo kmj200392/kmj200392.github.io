@@ -61,7 +61,7 @@ My research focuses on developing **more capable, efficient, and adaptive large 
 
 # Honors & Awards
 
-- **Award** *(2026)*  
+- **Top Excellence Award** *(2026)*  
   2026 Spring Individual Research and Capstone Design Competition, College of Informatics, Korea University
 
 - **Top Excellence Award / President of IITP Award** *(2025)*  
