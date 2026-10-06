@@ -61,7 +61,7 @@ My research focuses on developing **more capable, efficient, and adaptive large 
 
 # Honors & Awards
 
-- **Award**, 2026 Spring Individual Research and Capstone Design Competition *(2026)*  
+- **Award**, 2026-1 개별연구 및 캡스톤디자인 경진대회 *(2026)*  
   College of Informatics, Korea University  
   *MemRefine: LLM-Guided Compression for Long-Term Agent Memory*
 
