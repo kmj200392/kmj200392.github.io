@@ -6,7 +6,7 @@ author_profile: true
 
 # About
 
-I received my B.E. in [Computer Science and Engineering](https://cs.korea.ac.kr/cs/index.do) from [Korea University](https://www.korea.edu/). I am currently an M.S. student at the [Kim Jaechul Graduate School of AI](https://gsai.kaist.ac.kr/) at [KAIST](https://www.kaist.ac.kr/en/), advised by Prof. [Sung Ju Hwang](http://www.sungjuhwang.com/).
+I am currently an M.S. student at the [Kim Jaechul Graduate School of AI](https://gsai.kaist.ac.kr/) at [KAIST](https://www.kaist.ac.kr/en/), advised by Prof. [Sung Ju Hwang](http://www.sungjuhwang.com/). I received my B.E. in [Computer Science and Engineering](https://cs.korea.ac.kr/cs/index.do) from [Korea University](https://www.korea.edu/).
 
 My research focuses on developing **more capable, efficient, and adaptive large language models and LLM-based systems**. I am particularly interested in how language models and agents can **reason, act, and accumulate knowledge efficiently over long horizons**, while minimizing unnecessary computation, token usage, and external retrieval. My recent interests include **token-efficient LLM agents**, **memory and knowledge integration**, and **parametric mechanisms for efficient adaptation**.
 
