@@ -14,7 +14,7 @@ My research focuses on developing **more capable, efficient, and adaptive large 
 
 <div class="experience-list">
   <div class="experience-item">
-    <div class="experience-date">Starting Mar. 2027</div>
+    <div class="experience-date">Mar. 2027 – Present</div>
     <div class="experience-content">
       <div class="experience-title"><a href="https://www.kaist.ac.kr/en/">KAIST</a></div>
       <div class="experience-role">M.S. in Artificial Intelligence</div>
@@ -22,7 +22,7 @@ My research focuses on developing **more capable, efficient, and adaptive large 
   </div>
 
   <div class="experience-item">
-    <div class="experience-date">Expected Feb. 2027</div>
+    <div class="experience-date">Mar. 2023 – Feb. 2027</div>
     <div class="experience-content">
       <div class="experience-title"><a href="https://www.korea.edu/">Korea University</a></div>
       <div class="experience-role">B.E. in <a href="https://cs.korea.ac.kr/cs/index.do">Computer Science and Engineering</a></div>
