@@ -53,7 +53,6 @@ My research focuses on developing **more capable, efficient, and adaptive large 
     <div class="experience-content">
       <div class="experience-title"><a href="https://www.mlai-kaist.com/">KAIST MLAI Lab</a></div>
       <div class="experience-role">Research Intern · Advisor: <a href="http://www.sungjuhwang.com/">Prof. Sung Ju Hwang</a></div>
-      <div class="experience-description">Research on long-term agent memory, multimodal memory, and efficient LLM-based agents.</div>
     </div>
   </div>
 
@@ -62,7 +61,6 @@ My research focuses on developing **more capable, efficient, and adaptive large 
     <div class="experience-content">
       <div class="experience-title">Korea University × CrowdWorks</div>
       <div class="experience-role">Researcher / Team Lead · Industry-Academia Project</div>
-      <div class="experience-description">Led a five-member team developing an Agentic RAG system for complex multi-hop retrieval and report generation.</div>
     </div>
   </div>
 </div>
@@ -87,7 +85,6 @@ My research focuses on developing **more capable, efficient, and adaptive large 
     <div class="experience-content">
       <div class="experience-title">37th Korea University Ae-gineung Club Association</div>
       <div class="experience-role">President</div>
-      <div class="experience-description">Coordinating affiliated student clubs and supporting their operations, events, and communication.</div>
     </div>
   </div>
 
@@ -96,7 +93,6 @@ My research focuses on developing **more capable, efficient, and adaptive large 
     <div class="experience-content">
       <div class="experience-title">9th Student Council, College of Informatics, Korea University</div>
       <div class="experience-role">President</div>
-      <div class="experience-description">Led college-wide student programs, events, welfare initiatives, and software-related competitions.</div>
     </div>
   </div>
 </div>
