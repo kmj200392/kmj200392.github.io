@@ -14,6 +14,15 @@ My research focuses on developing **more capable, efficient, and adaptive large 
 
 <div class="experience-list">
   <div class="experience-item">
+    <div class="experience-date">Starting Mar. 2027</div>
+    <div class="experience-content">
+      <div class="experience-title"><a href="https://www.kaist.ac.kr/en/">KAIST</a></div>
+      <div class="experience-role">M.S. in Artificial Intelligence</div>
+      <div class="experience-description">Kim Jaechul Graduate School of AI</div>
+    </div>
+  </div>
+
+  <div class="experience-item">
     <div class="experience-date">Expected Feb. 2027</div>
     <div class="experience-content">
       <div class="experience-title"><a href="https://www.korea.edu/">Korea University</a></div>
