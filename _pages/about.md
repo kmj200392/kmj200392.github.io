@@ -83,14 +83,18 @@ My research focuses on developing **more capable, efficient, and adaptive large 
   <div class="experience-item">
     <div class="experience-date">Dec. 2025 – Present</div>
     <div class="experience-content">
-      <div class="experience-title">President of the 37th Korea University Ae-gineung Club Association</div>
+      <div class="experience-title">37th Korea University Ae-gineung Club Association</div>
+      <div class="experience-role">President</div>
+      <div class="experience-description">Leading student organizations, operations, events, and communication across engineering and informatics communities.</div>
     </div>
   </div>
 
   <div class="experience-item">
     <div class="experience-date">Nov. 2024 – Nov. 2025</div>
     <div class="experience-content">
-      <div class="experience-title">President of the 9th Student Council, College of Informatics, Korea University</div>
+      <div class="experience-title">9th Student Council, College of Informatics</div>
+      <div class="experience-role">President</div>
+      <div class="experience-description">Led college-wide student programs, events, welfare initiatives, and software-related competitions.</div>
     </div>
   </div>
 </div>
