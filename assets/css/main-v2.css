@@ -154,7 +154,16 @@ a:focus-visible {
   padding-right: clamp(0px, calc((100vw - 1004px) / 2), 70px);
 }
 
-.profile { position: sticky; top: 110px; }
+.profile {
+  position: fixed;
+  top: 142px;
+  left: 36px;
+  width: calc(var(--sidebar-width) + 8px);
+  max-height: calc(100vh - 154px);
+  padding-left: 8px;
+  overflow-y: auto;
+}
+.profile + .page-content { grid-column: 2; }
 .profile-box { width: 100%; padding-top: 10px; }
 
 .profile-portrait {
@@ -427,7 +436,7 @@ a:focus-visible {
   .site-nav { gap: 4px; }
   .site-nav a { padding: 7px 12px; }
   .site-shell { width: min(calc(100% - 40px), 680px); margin: 0 auto; padding: 40px 0 32px; display: block; }
-  .profile { position: static; margin-bottom: 42px; padding-bottom: 28px; border-bottom: 1px solid var(--rule); }
+  .profile { position: static; width: auto; max-height: none; overflow: visible; margin-bottom: 42px; padding: 0 0 28px; border-bottom: 1px solid var(--rule); }
   .profile-box { display: grid; grid-template-columns: 156px minmax(0, 1fr); column-gap: 26px; align-items: start; padding-top: 0; }
   .profile-portrait { width: 156px; margin: 6px 0 0; grid-row: 1 / span 3; }
   .profile-name, .profile-bio, .profile-links { grid-column: 2; }
