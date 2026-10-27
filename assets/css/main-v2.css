@@ -405,20 +405,6 @@ a:focus-visible {
 .activity-period { color: var(--muted); font-size: 0.86rem; }
 .activity-status { display: inline-block; padding: 3px 9px; border-radius: 5px; background: #f0f3f8; color: var(--muted); font-size: 0.8rem; }
 
-.page-footer {
-  display: flex;
-  justify-content: space-between;
-  gap: 16px;
-  margin-top: 64px;
-  padding-top: 20px;
-  border-top: 1px solid var(--rule);
-  color: var(--muted);
-  font-size: 0.77rem;
-}
-
-.page-footer a { color: var(--muted); }
-.page-footer a:hover { color: var(--link); }
-
 @media (max-width: 1080px) {
   .publication-item { grid-template-columns: 200px minmax(0, 1fr); gap: 24px; }
 }
@@ -446,7 +432,6 @@ a:focus-visible {
   .profile-links .icon { width: 14px; height: 14px; }
   .page-content h1 { margin-top: 32px; }
   .page-content h1:first-child { font-size: 1.7rem; }
-  .page-footer { margin-top: 48px; }
 }
 
 @media (max-width: 600px) {
