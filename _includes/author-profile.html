@@ -1,6 +1,6 @@
 <div class="profile-box" itemscope itemtype="https://schema.org/Person">
   {% if site.author.avatar %}
-    <img class="profile-avatar" src="{{ site.author.avatar }}" alt="{{ site.author.name }}">
+    <img class="profile-avatar" src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}" width="156" height="156">
   {% endif %}
 
   <h1 class="profile-name" itemprop="name">{{ site.author.name }}</h1>
