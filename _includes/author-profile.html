@@ -1,6 +1,8 @@
 <div class="profile-box" itemscope itemtype="https://schema.org/Person">
   {% if site.author.avatar %}
-    <img class="profile-avatar" src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}" width="156" height="156">
+    <div class="profile-portrait">
+      <img class="profile-avatar" src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}" width="156" height="156">
+    </div>
   {% endif %}
 
   <h1 class="profile-name" itemprop="name">{{ site.author.name }}</h1>
@@ -10,19 +12,19 @@
 
   <div class="profile-links">
     {% if site.author.email %}
-      <a href="mailto:{{ site.author.email }}">Email</a>
+      <a href="mailto:{{ site.author.email }}">{% include icon.html name="email" %}<span>Email</span></a>
     {% endif %}
     {% if site.author.github %}
-      <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+      <a href="https://github.com/{{ site.author.github }}">{% include icon.html name="github" %}<span>GitHub</span></a>
     {% endif %}
     {% if site.author.googlescholar %}
-      <a href="{{ site.author.googlescholar }}">Google Scholar</a>
+      <a href="{{ site.author.googlescholar }}">{% include icon.html name="scholar" %}<span>Google Scholar</span></a>
     {% endif %}
     {% if site.author.linkedin %}
-      <a href="{{ site.author.linkedin }}">LinkedIn</a>
+      <a href="{{ site.author.linkedin }}">{% include icon.html name="linkedin" %}<span>LinkedIn</span></a>
     {% endif %}
     {% if site.author.cv %}
-      <a href="{{ site.author.cv | relative_url }}">CV</a>
+      <a class="profile-cv" href="{{ site.author.cv | relative_url }}">{% include icon.html name="document" %}<span>CV</span><span class="link-arrow" aria-hidden="true">↗</span></a>
     {% endif %}
   </div>
 </div>
