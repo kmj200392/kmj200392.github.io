@@ -37,13 +37,7 @@ My research focuses on developing **more capable, efficient, and adaptive large 
 
 # Publications
 
-- [**MemRefine: LLM-Guided Compression for Long-Term Agent Memory**](https://arxiv.org/abs/2606.13177)  
-  **Minjae Kim**, Jinheon Baek, Soyeong Jeong, and Sung Ju Hwang  
-  *arXiv preprint, 2026*
-
-- [**Enhancing Multi-Hop Complex Query Retrieval Efficiency through the Integration of RAG and Graph RAG**](/pdfs/HCLT_%EB%85%BC%EB%AC%B8.pdf)  
-  Seong-min Lee, He-eun Kim, Dong-young Lee, Min-seon Kang, **Minjae Kim**, Soo-yeol Yang, and Young-sook Hwang  
-  *Annual Conference on Human and Cognitive Language Technology (HCLT), 2025*
+{% include publications.md %}
 
 # Research Experience
 

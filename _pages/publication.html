@@ -1,0 +1,23 @@
+---
+permalink: /publication/
+title: Publications
+---
+
+<h1>Publications</h1>
+
+<div class="publication-list">
+  {% for publication in site.data.publications %}
+  {% assign paper_url = publication.paper_url %}{% unless paper_url contains '://' %}{% assign paper_url = paper_url | relative_url %}{% endunless %}
+  <article class="publication-item">
+    <a class="publication-figure" href="{{ publication.figure | relative_url }}" aria-label="View full-size figure for {{ publication.title | escape }}">
+      <img src="{{ publication.figure | relative_url }}" alt="{{ publication.figure_alt | escape }}" width="{{ publication.figure_width }}" height="{{ publication.figure_height }}" loading="lazy">
+    </a>
+    <div class="publication-details">
+      <h2><a href="{{ paper_url }}">{{ publication.title }}</a></h2>
+      <div class="publication-authors">{{ publication.authors | markdownify }}</div>
+      <p class="publication-venue">{{ publication.venue }}</p>
+      <a class="publication-paper" href="{{ paper_url }}" aria-label="Read {{ publication.title | escape }}">[paper]</a>
+    </div>
+  </article>
+  {% endfor %}
+</div>

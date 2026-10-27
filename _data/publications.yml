@@ -1,0 +1,17 @@
+- title: "MemRefine: LLM-Guided Compression for Long-Term Agent Memory"
+  authors: "**Minjae Kim**, Jinheon Baek, Soyeong Jeong, and Sung Ju Hwang"
+  venue: "arXiv preprint, 2026"
+  paper_url: "https://arxiv.org/abs/2606.13177"
+  figure: /assets/images/publications/memrefine.png
+  figure_alt: "Conventional agent memory grows with long conversations; MemRefine keeps memory within a storage budget."
+  figure_width: 912
+  figure_height: 790
+
+- title: "Enhancing Multi-Hop Complex Query Retrieval Efficiency through the Integration of RAG and Graph RAG"
+  authors: "Seong-min Lee, He-eun Kim, Dong-young Lee, Min-seon Kang, **Minjae Kim**, Soo-yeol Yang, and Young-sook Hwang"
+  venue: "Annual Conference on Human and Cognitive Language Technology (HCLT), 2025"
+  paper_url: "/pdfs/HCLT_%EB%85%BC%EB%AC%B8.pdf"
+  figure: /assets/images/publications/rag-graph-rag.png
+  figure_alt: "System architecture connecting query classification, an orchestrator, data gathering, and response generation."
+  figure_width: 703
+  figure_height: 595

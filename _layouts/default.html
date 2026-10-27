@@ -16,11 +16,12 @@
     <link rel="stylesheet" href="{{ '/assets/css/main-v2.css' | relative_url }}">
   </head>
   <body>
+    {% include header.html %}
     <div class="site-shell">
       {% if page.author_profile %}
         {% include sidebar.html %}
       {% endif %}
-      <main class="page-content">
+      <main class="page-content" id="main-content" tabindex="-1">
         {{ content }}
       </main>
     </div>

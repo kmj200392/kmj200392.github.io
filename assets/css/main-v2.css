@@ -35,10 +35,75 @@ a:focus {
   text-decoration: underline;
 }
 
+a:focus-visible {
+  outline: 2px solid var(--link);
+  outline-offset: 5px;
+}
+
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 18px;
+  z-index: 10;
+  padding: 8px 12px;
+  background: #fff;
+}
+
+.skip-link:focus {
+  top: 12px;
+}
+
+.site-header {
+  margin: 0 44px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.header-inner {
+  display: grid;
+  grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
+  column-gap: 56px;
+  align-items: center;
+  min-height: 76px;
+}
+
+.site-name {
+  color: var(--text);
+  font-size: 1.05rem;
+  font-weight: 650;
+}
+
+.site-nav {
+  display: flex;
+  align-items: stretch;
+  gap: 32px;
+  align-self: stretch;
+}
+
+.site-nav a {
+  display: flex;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+  color: var(--muted);
+  font-size: 0.96rem;
+}
+
+.site-nav a:hover,
+.site-nav a[aria-current="page"] {
+  color: var(--link);
+  border-bottom-color: var(--link);
+  text-decoration: none;
+}
+
+.site-nav a[aria-current="page"] {
+  font-weight: 650;
+}
+
 .site-shell {
   width: auto;
   margin: 0 44px;
-  padding: 64px 0 80px;
+  padding: 44px 0 80px;
   display: grid;
   grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
   gap: 56px;
@@ -172,6 +237,131 @@ a:focus {
   line-height: 1.6;
 }
 
+.publication-list {
+  display: grid;
+  gap: 56px;
+  padding-top: 18px;
+  max-width: 1140px;
+}
+
+.publication-item {
+  display: grid;
+  grid-template-columns: 280px minmax(0, 1fr);
+  gap: 36px;
+  align-items: start;
+}
+
+.publication-figure {
+  display: block;
+}
+
+.publication-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.publication-details h2,
+.activity-entry h2 {
+  margin: 0 0 8px;
+  font-size: 1.12rem;
+  line-height: 1.5;
+  font-weight: 650;
+}
+
+.publication-authors {
+  color: #555;
+}
+
+.publication-authors p {
+  margin-bottom: 6px;
+}
+
+.publication-venue {
+  font-style: italic;
+}
+
+.page-content .publication-venue {
+  margin-bottom: 6px;
+}
+
+.publication-paper {
+  font-size: 0.95rem;
+}
+
+.page-note,
+.activity-status,
+.activity-period {
+  color: var(--muted);
+}
+
+.activity-list {
+  max-width: 900px;
+}
+
+.activity-entry {
+  display: block;
+  padding: 24px 0 30px;
+  color: var(--text);
+}
+
+.activity-entry + .activity-entry {
+  border-top: 1px solid var(--rule);
+  padding-top: 30px;
+}
+
+.activity-entry h2 {
+  font-size: 1.18rem;
+  margin-bottom: 10px;
+}
+
+.activity-entry p {
+  max-width: 76ch;
+  color: #555;
+}
+
+.activity-link:hover,
+.activity-link:focus {
+  text-decoration: none;
+}
+
+.activity-link:hover h2,
+.activity-link:focus h2 {
+  color: var(--link);
+  text-decoration: underline;
+}
+
+.activity-arrow {
+  margin-left: 6px;
+  color: var(--link);
+  font-size: 0.95em;
+}
+
+.activity-destination {
+  color: var(--link);
+  font-size: 0.95rem;
+}
+
+.page-content .activity-roles {
+  margin-bottom: 16px;
+}
+
+.activity-roles li {
+  margin-bottom: 6px;
+}
+
+.activity-period,
+.activity-status {
+  font-size: 0.92rem;
+}
+
+@media (max-width: 1080px) {
+  .publication-item {
+    grid-template-columns: 200px minmax(0, 1fr);
+    gap: 24px;
+  }
+}
+
 @media (max-width: 500px) {
   .experience-list {
     gap: 26px;
@@ -195,8 +385,29 @@ a:focus {
 }
 
 @media (max-width: 760px) {
+  .site-header {
+    width: min(calc(100% - 36px), 680px);
+    margin: 0 auto;
+  }
+
+  .header-inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 32px;
+  }
+
+  .site-name {
+    padding: 16px 0;
+  }
+
+  .site-nav {
+    gap: 24px;
+    min-height: 56px;
+  }
+
   .site-shell {
     width: min(calc(100% - 36px), 680px);
+    margin: 0 auto;
     padding: 36px 0 60px;
     display: block;
   }
@@ -249,7 +460,36 @@ a:focus {
   }
 }
 
+@media (max-width: 600px) {
+  .publication-item {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 20px;
+  }
+
+  .publication-figure {
+    width: min(100%, 300px);
+  }
+
+  .publication-list {
+    gap: 40px;
+  }
+}
+
 @media (max-width: 460px) {
+  .header-inner {
+    display: block;
+  }
+
+  .site-name {
+    display: inline-block;
+    padding-bottom: 0;
+  }
+
+  .site-nav {
+    justify-content: space-between;
+    gap: 12px;
+  }
+
   .profile-box {
     display: block;
   }

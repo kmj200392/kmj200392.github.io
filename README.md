@@ -1,6 +1,6 @@
 # Minjae Kim — Academic Homepage
 
-Personal academic homepage based on [AcadHomepage](https://github.com/RayeRen/acad-homepage.github.io), customized as a lightweight single-page research website.
+Personal academic homepage based on [AcadHomepage](https://github.com/RayeRen/acad-homepage.github.io), customized as a lightweight Jekyll website.
 
 ## Local preview
 
@@ -13,7 +13,17 @@ Then open `http://127.0.0.1:4000`.
 
 ## Notes
 
-- Main content: `_pages/about.md`
+- Home content: `_pages/about.md`
+- Header navigation: `_data/navigation.yml` and `_includes/header.html`
+- Publications: `_data/publications.yml` supplies both the Home list and `_pages/publication.html`. Add a paper once here, including its figure and alternative text.
+- Projects: `_pages/projects.md` (ready for the project list)
+- Activities: `_pages/etc.html`. Teaching & Mentoring links to the lecture website; Student Council has no link until its website is available.
 - Profile/site metadata: `_config.yml`
-- Styling: `assets/css/main.css`
+- Styling: `assets/css/main-v2.css`
 - Based on AcadHomepage (MIT License).
+
+## Publication figures
+
+- `assets/images/publications/memrefine.png`: Figure 1 from [MemRefine](https://arxiv.org/html/2606.13177v1), the original `concept_fig.png`.
+- `assets/images/publications/rag-graph-rag.png`: Figure 2 (system architecture), extracted from page 4 of the existing `pdfs/HCLT_논문.pdf`.
+- The figures link to their full-size image. Authors, titles, and venues are shared with the Home publication list.
