@@ -145,7 +145,7 @@ a:focus-visible {
 }
 
 .site-shell--home {
-  padding-right: clamp(0px, calc(100vw - 960px), 184px);
+  padding-right: clamp(0px, calc((100vw - 1004px) / 2), 70px);
 }
 
 .profile { position: sticky; top: 38px; }
