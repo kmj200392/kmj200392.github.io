@@ -110,6 +110,10 @@ a:focus-visible {
   align-items: start;
 }
 
+.site-shell--home {
+  padding-right: clamp(0px, calc(100vw - 960px), calc(var(--sidebar-width) + 56px));
+}
+
 .profile {
   position: sticky;
   top: 48px;

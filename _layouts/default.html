@@ -17,7 +17,7 @@
   </head>
   <body>
     {% include header.html %}
-    <div class="site-shell">
+    <div class="site-shell{% if page.url == '/' %} site-shell--home{% endif %}">
       {% if page.author_profile %}
         {% include sidebar.html %}
       {% endif %}
