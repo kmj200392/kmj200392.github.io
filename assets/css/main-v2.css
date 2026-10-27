@@ -15,7 +15,7 @@
 html {
   font-size: 16px;
   scroll-behavior: smooth;
-  scroll-padding-top: 28px;
+  scroll-padding-top: 130px;
 }
 
 body {
@@ -70,8 +70,12 @@ a:focus-visible {
 .skip-link:focus { top: 12px; }
 
 .site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
   margin: 0 44px;
   border-bottom: 1px solid var(--rule);
+  background: #fff;
 }
 
 .header-inner {
@@ -148,7 +152,7 @@ a:focus-visible {
   padding-right: clamp(0px, calc((100vw - 1004px) / 2), 70px);
 }
 
-.profile { position: sticky; top: 38px; }
+.profile { position: sticky; top: 110px; }
 .profile-box { width: 100%; padding-top: 10px; }
 
 .profile-portrait {
