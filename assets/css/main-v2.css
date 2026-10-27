@@ -152,29 +152,16 @@ a:focus-visible {
 .profile-box { width: 100%; padding-top: 10px; }
 
 .profile-portrait {
-  position: relative;
-  isolation: isolate;
-  width: 156px;
-  height: 156px;
+  width: min(100%, 220px);
+  aspect-ratio: 1;
   margin: 0 0 28px;
-}
-
-.profile-portrait::before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  inset: -10px;
-  border-radius: 50%;
-  background: linear-gradient(140deg, #cddfff, #eef4ff 65%, #fff);
-  box-shadow: 0 0 0 1px #dbe6f8;
 }
 
 .profile-avatar {
   display: block;
   width: 100%;
   height: 100%;
-  border: 4px solid #fff;
-  border-radius: 50%;
+  border-radius: 4px;
   object-fit: cover;
   background: #fff;
 }
@@ -449,10 +436,8 @@ a:focus-visible {
   .site-nav a { padding: 7px 12px; }
   .site-shell { width: min(calc(100% - 40px), 680px); margin: 0 auto; padding: 40px 0 32px; display: block; }
   .profile { position: static; margin-bottom: 42px; padding-bottom: 28px; border-bottom: 1px solid var(--rule); }
-  .profile-box { display: grid; grid-template-columns: 108px minmax(0, 1fr); column-gap: 26px; align-items: start; padding-top: 0; }
-  .profile-portrait { width: 108px; height: 108px; margin: 6px 0 0; grid-row: 1 / span 3; }
-  .profile-portrait::before { inset: -6px; }
-  .profile-avatar { border-width: 3px; }
+  .profile-box { display: grid; grid-template-columns: 156px minmax(0, 1fr); column-gap: 26px; align-items: start; padding-top: 0; }
+  .profile-portrait { width: 156px; margin: 6px 0 0; grid-row: 1 / span 3; }
   .profile-name, .profile-bio, .profile-links { grid-column: 2; }
   .profile-name { font-size: 1.45rem; }
   .profile-bio { max-width: none; margin: 5px 0 12px; font-size: 0.86rem; }
@@ -481,8 +466,8 @@ a:focus-visible {
   .header-inner { flex-direction: column; align-items: flex-start; gap: 14px; padding: 15px 0 13px; }
   .site-nav { justify-content: space-between; width: 100%; gap: 2px; }
   .site-nav a { padding: 7px 11px; font-size: 0.86rem; }
-  .profile-box { grid-template-columns: 82px minmax(0, 1fr); column-gap: 20px; }
-  .profile-portrait { width: 82px; height: 82px; }
+  .profile-box { grid-template-columns: 128px minmax(0, 1fr); column-gap: 20px; }
+  .profile-portrait { width: 128px; }
   .profile-name { font-size: 1.35rem; }
   .profile-links { grid-column: 1 / -1; margin-top: 18px; gap: 8px 16px; }
   .profile-bio { margin-bottom: 0; }
