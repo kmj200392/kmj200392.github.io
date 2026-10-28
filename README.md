@@ -17,7 +17,7 @@ Then open `http://127.0.0.1:4000`.
 - Header navigation: `_data/navigation.yml` and `_includes/header.html`
 - Publications: `_data/publications.yml` supplies both the Home list and `_pages/publication.html`. Add a paper once here, including its figure and alternative text.
 - Projects: `_pages/projects.md` (ready for the project list)
-- Activities: `_pages/etc.html`. Teaching & Mentoring links to the lecture website; Student Council has no link until its website is available.
+- Activities: `_pages/etc.html`. Teaching & Mentoring and Student Council link to their respective websites.
 - Profile/site metadata: `_config.yml`
 - Styling: `assets/css/main-v2.css`
 - Based on AcadHomepage (MIT License).
