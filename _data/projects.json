@@ -1,0 +1,239 @@
+[
+  {
+    "id": "crowdworks-rag",
+    "title": "CrowdWorks Multi-Agent RAG System",
+    "year": "2025",
+    "category": "AI & Research",
+    "tags": [
+      "Multi-Agent",
+      "Graph RAG",
+      "Vector RAG"
+    ],
+    "summary": "An industry collaboration exploring agent-based research and hybrid retrieval for food-industry information.",
+    "image": "crowdworks-mockup.webp",
+    "image_alt": "Illustration of the research assistant interface and report generation",
+    "image_caption": "Project UI mockup from the repository.",
+    "fit": "cover",
+    "overview": "Developed as a Korea University–CrowdWorks industry collaboration, the project brings together dispersed food-industry information in a research-assistant workflow. Its design combines multiple agents with graph and vector retrieval to support complex questions.",
+    "features": [
+      "Hybrid retrieval combines graph relationships with semantic search.",
+      "A LangGraph-based workflow coordinates data gathering and report generation.",
+      "The interface presents the research process and source references."
+    ],
+    "role": "Team lead; data preprocessing, embedding design, and Vector RAG development, as described in the project repository.",
+    "stack": [
+      "Python",
+      "LangGraph",
+      "FastAPI",
+      "Neo4j",
+      "Elasticsearch",
+      "Next.js"
+    ],
+    "github": "https://github.com/danlee-dev/crowdworks-research-agent-system",
+    "figure": "crowdworks-architecture.webp",
+    "figure_alt": "Architecture diagram of the CrowdWorks multi-agent retrieval system",
+    "figure_caption": "System architecture from the project repository."
+  },
+  {
+    "id": "plinq",
+    "title": "plinq",
+    "year": "2026",
+    "category": "AI & Research",
+    "tags": [
+      "AI Productivity",
+      "Project Management",
+      "Meeting"
+    ],
+    "summary": "An AI-assisted workspace for meetings, tasks, and project collaboration.",
+    "image": "plinq-demo.png",
+    "image_alt": "plinq project interface showing meeting summaries and action items",
+    "image_caption": "Project interface shown under its earlier development name, Plow.",
+    "fit": "cover",
+    "overview": "plinq is an AI-assisted meeting and project management platform submitted to the 2026 Korea University College of Informatics NE:XT Contest. The repository is a submission snapshot containing the desktop application, backend, AI pipeline, and web components.",
+    "features": [
+      "Meeting transcripts can be organized into summaries and suggested action items.",
+      "Project work is organized through task, backlog, and calendar views.",
+      "The system includes a desktop client, a database layer, and an AI pipeline."
+    ],
+    "role": "Planning and development; team representative, according to the submission repository.",
+    "stack": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Electron",
+      "FastAPI",
+      "Supabase"
+    ],
+    "github": "https://github.com/kmj200392/2026_NE-XT_plinq"
+  },
+  {
+    "id": "kuci",
+    "title": "College of Informatics Student Council Website",
+    "year": "2025",
+    "category": "Web & Services",
+    "tags": [
+      "Student Community",
+      "Web Service",
+      "Next.js"
+    ],
+    "summary": "A web front end for student council information and services at Korea University.",
+    "image": "kuci-hero.webp",
+    "image_alt": "College of Informatics shield graphic from the student council website",
+    "image_caption": "College of Informatics graphic from the website assets.",
+    "fit": "contain",
+    "overview": "A web front end for the Korea University College of Informatics student council. The repository includes pages for student council information and interfaces for student services and administration.",
+    "features": [
+      "Student council information and activity pages.",
+      "Booking and locker interfaces, with corresponding administration pages.",
+      "Separate user and administrator session routes."
+    ],
+    "role": "Chair of the student council website development task force.",
+    "stack": [
+      "Next.js",
+      "React",
+      "JavaScript"
+    ],
+    "github": "https://github.com/kmj200392/kuci_front"
+  },
+  {
+    "id": "trabuddy",
+    "title": "Trabuddy",
+    "year": "2025",
+    "category": "Web & Services",
+    "tags": [
+      "Mobile App",
+      "Travel",
+      "AI"
+    ],
+    "summary": "A travel assistant app designed to help travelers navigate unfamiliar situations abroad.",
+    "image": "trabuddy-logo.png",
+    "image_alt": "Trabuddy project logo",
+    "image_caption": "Project logo from the Trabuddy repository.",
+    "fit": "contain",
+    "overview": "Trabuddy is a mobile travel assistant developed for the 2025 Google Solution Challenge. The project explores how an AI companion can help travelers prepare for and respond to situations during trips abroad.",
+    "features": [
+      "Travel preparation information and checklists.",
+      "Translation and conversation support.",
+      "Travel information and chat history interfaces."
+    ],
+    "role": "UI/UX design and frontend development, as listed in the project README.",
+    "stack": [
+      "React Native",
+      "Expo",
+      "JavaScript"
+    ],
+    "github": "https://github.com/Solution-Challenge-2025-Team2/Trabuddy_FE"
+  },
+  {
+    "id": "ku-agent-lab",
+    "title": "KU Agent Lab",
+    "year": "2026",
+    "category": "AI & Research",
+    "tags": [
+      "AI Agents",
+      "Education",
+      "Interactive"
+    ],
+    "summary": "An interactive learning site for AI agent concepts, demonstrations, and hands-on exercises.",
+    "image": "agent-workshop-slide.webp",
+    "image_alt": "Title slide from the AI Agent development workshop",
+    "image_caption": "A slide from the AI Agent workshop materials.",
+    "fit": "cover",
+    "overview": "KU Agent Lab is a lecture and workshop site for exploring AI agent development. It brings course materials, demonstrations, and an interactive workspace together in one place.",
+    "features": [
+      "An AI agent workshop with staged demonstrations and a browser-based workspace.",
+      "Lecture materials with slide navigation and downloadable resources.",
+      "An exercise and leaderboard workflow."
+    ],
+    "stack": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Python"
+    ],
+    "website": "https://lectures.minjaek.im/"
+  },
+  {
+    "id": "ordering",
+    "title": "Student Council Ordering",
+    "year": "2025",
+    "category": "Web & Services",
+    "tags": [
+      "Ordering",
+      "Event",
+      "Next.js"
+    ],
+    "summary": "A web ordering interface for an event, featuring menus and table-based orders.",
+    "image": "ordering-menu.webp",
+    "image_alt": "A menu photo from the ordering project assets",
+    "image_caption": "A menu photograph from the project assets.",
+    "fit": "cover",
+    "overview": "An event ordering frontend built with Next.js. The code includes a menu interface, quantity selection, an order summary, and a table-specific ordering route.",
+    "features": [
+      "Menu and drink selection with quantity controls.",
+      "An order summary and table-specific ordering flow.",
+      "A route for forwarding order requests."
+    ],
+    "stack": [
+      "Next.js",
+      "React",
+      "JavaScript"
+    ],
+    "github": "https://github.com/kmj200392/Ordering_FE",
+    "website": "https://ordering-fe.vercel.app/"
+  },
+  {
+    "id": "realton",
+    "title": "ReaLton",
+    "year": "2024",
+    "category": "AI & Research",
+    "tags": [
+      "Generative AI",
+      "Accessibility",
+      "Frontend"
+    ],
+    "summary": "A prototype exploring AI-assisted spoke-guard design for wheelchair users.",
+    "image": "realton-illustration.svg",
+    "image_alt": "Decorative illustration inspired by a wheelchair spoke guard",
+    "image_caption": "Illustration created for this page; the repository did not include a project screenshot.",
+    "fit": "cover",
+    "overview": "ReaLton explores the use of generative AI to help wheelchair users express their preferences through spoke-guard designs. The repository describes an interface for selecting visual styles and colors and generating design prompts.",
+    "features": [
+      "A selection interface for colors and visual styles.",
+      "Text input for describing a desired design.",
+      "An AI-assisted prompt generation flow described in the source."
+    ],
+    "stack": [
+      "React",
+      "JavaScript",
+      "Generative AI"
+    ]
+  },
+  {
+    "id": "kuconut",
+    "title": "KUconut",
+    "year": "2024",
+    "category": "Web & Services",
+    "tags": [
+      "Campus Life",
+      "Web App",
+      "React"
+    ],
+    "summary": "A campus-life web frontend organized around activities, food, study, and more.",
+    "image": "kuconut-illustration.svg",
+    "image_alt": "Illustration of campus activity categories",
+    "image_caption": "Illustration created for this page; the repository did not include a project screenshot.",
+    "fit": "cover",
+    "overview": "KUconut is a campus-life web frontend with sections for activities, food, study, and other experiences. The repository contains the React application and its page structure.",
+    "features": [
+      "Separate Eat, Play, Study, and Extra sections.",
+      "Pages for exploring, filtering, and creating entries.",
+      "A personal page and navigation across categories."
+    ],
+    "stack": [
+      "React",
+      "JavaScript"
+    ],
+    "github": "https://github.com/Kuconut/Kuconut_FE"
+  }
+]

@@ -16,7 +16,7 @@ Then open `http://127.0.0.1:4000`.
 - Home content: `_pages/about.md`
 - Header navigation: `_data/navigation.yml` and `_includes/header.html`
 - Publications: `_data/publications.yml` supplies both the Home list and `_pages/publication.html`. Add a paper once here, including its figure and alternative text.
-- Projects: `_pages/projects.md` (ready for the project list)
+- Projects: `_data/projects.json` supplies the overview and individual project pages in `_pages/` using `_layouts/project.html`.
 - Activities: `_pages/etc.html`. Teaching & Mentoring and Student Council link to their respective websites.
 - Profile/site metadata: `_config.yml`
 - Styling: `assets/css/main-v2.css`

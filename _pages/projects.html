@@ -1,0 +1,40 @@
+---
+permalink: /projects/
+title: Projects
+---
+
+<div class="projects-page">
+  <header class="projects-heading">
+    <p class="projects-eyebrow">SELECTED WORK</p>
+    <h1>Projects</h1>
+    <p>Research, tools, and services built with people and ideas in mind.</p>
+  </header>
+  <div class="projects-toolbar" aria-label="Filter projects">
+    <div class="project-filters">
+      <button type="button" class="project-filter is-active" data-project-filter="all" aria-pressed="true">All <span>08</span></button>
+      <button type="button" class="project-filter" data-project-filter="AI &amp; Research" aria-pressed="false">AI &amp; Research</button>
+      <button type="button" class="project-filter" data-project-filter="Web &amp; Services" aria-pressed="false">Web &amp; Services</button>
+    </div>
+    <span class="projects-count">{{ site.data.projects.size }} PROJECTS</span>
+  </div>
+  <div class="project-grid">
+    {% for project in site.data.projects %}
+    <article class="project-card" data-project-category="{{ project.category | escape }}">
+      <a class="project-card-link" href="{{ '/projects/' | append: project.id | append: '/' | relative_url }}" aria-label="Read about {{ project.title | escape }}">
+        <div class="project-card-image project-image--{{ project.id }} project-image--{{ project.fit }}">
+          <img src="{{ '/assets/images/projects/' | append: project.image | relative_url }}" alt="{{ project.image_alt | escape }}" loading="lazy">
+          <span class="project-card-arrow" aria-hidden="true">↗</span>
+        </div>
+        <div class="project-card-body">
+          <div class="project-card-meta"><span>{{ project.category }}</span><span>{{ project.year }}</span></div>
+          <h2>{{ project.title }}</h2>
+          <p>{{ project.summary }}</p>
+          <div class="project-tags">{% for tag in project.tags %}<span>{{ tag }}</span>{% endfor %}</div>
+          <span class="project-card-more">Explore project <span aria-hidden="true">↗</span></span>
+        </div>
+      </a>
+    </article>
+    {% endfor %}
+  </div>
+</div>
+<script src="{{ '/assets/js/projects.js' | relative_url }}" defer></script>

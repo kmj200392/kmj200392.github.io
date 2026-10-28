@@ -1,0 +1,37 @@
+---
+layout: default
+---
+{% assign project = site.data.projects | where: 'id', page.project_id | first %}
+{% if project %}
+<article class="project-detail">
+  <a class="project-back" href="{{ '/projects/' | relative_url }}">← <span>Back to projects</span></a>
+  <header class="detail-header">
+    <p class="projects-eyebrow">PROJECT / {{ project.year }} <span>·</span> {{ project.category | upcase }}</p>
+    <h1>{{ project.title }}</h1>
+    <p class="detail-summary">{{ project.summary }}</p>
+    <div class="detail-meta"><div><span>YEAR</span><strong>{{ project.year }}</strong></div><div><span>AREA</span><strong>{{ project.category }}</strong></div>{% if project.role %}<div class="detail-meta-role"><span>ROLE</span><strong>{{ project.role }}</strong></div>{% endif %}</div>
+  </header>
+  <div class="detail-layout">
+    <nav class="detail-toc" aria-label="On this page">
+      <span>CONTENTS</span>
+      <a href="#overview">Overview</a>
+      <a href="#features">Project details</a>
+      {% if project.figure %}<a href="#architecture">Architecture</a>{% endif %}
+      <a href="#technology">Technology</a>
+      {% if project.github or project.website %}<a href="#links">Links</a>{% endif %}
+    </nav>
+    <div class="detail-content">
+      <figure class="detail-hero">
+        <div class="detail-hero-image project-image--{{ project.id }} project-image--{{ project.fit }}"><img src="{{ '/assets/images/projects/' | append: project.image | relative_url }}" alt="{{ project.image_alt | escape }}"></div>
+        <figcaption>{{ project.image_caption }}</figcaption>
+      </figure>
+      <section id="overview"><p class="detail-section-label">01 / THE PROJECT</p><h2>Overview</h2><p>{{ project.overview }}</p></section>
+      <section id="features"><p class="detail-section-label">02 / IN PRACTICE</p><h2>Project details</h2><ul>{% for feature in project.features %}<li>{{ feature }}</li>{% endfor %}</ul></section>
+      {% if project.figure %}<section id="architecture"><p class="detail-section-label">SYSTEM VIEW</p><h2>Architecture</h2><figure class="detail-figure"><img src="{{ '/assets/images/projects/' | append: project.figure | relative_url }}" alt="{{ project.figure_alt | escape }}" loading="lazy"><figcaption>{{ project.figure_caption }}</figcaption></figure></section>{% endif %}
+      <section id="technology"><p class="detail-section-label">THE TOOLKIT</p><h2>Technology</h2><div class="detail-tags">{% for tech in project.stack %}<span>{{ tech }}</span>{% endfor %}</div></section>
+      {% if project.github or project.website %}<section id="links"><p class="detail-section-label">FURTHER LINKS</p><h2>Explore</h2><div class="detail-links">{% if project.github %}<a href="{{ project.github }}" target="_blank" rel="noopener noreferrer">View source on GitHub <span aria-hidden="true">↗</span></a>{% endif %}{% if project.website %}<a href="{{ project.website }}" target="_blank" rel="noopener noreferrer">Visit project website <span aria-hidden="true">↗</span></a>{% endif %}</div></section>{% endif %}
+      <a class="detail-bottom-back" href="{{ '/projects/' | relative_url }}">← All projects</a>
+    </div>
+  </div>
+</article>
+{% endif %}
