@@ -135,9 +135,9 @@
       "Interactive"
     ],
     "summary": "An interactive learning site for AI agent concepts, demonstrations, and hands-on exercises.",
-    "image": "agent-workshop-slide.webp",
-    "image_alt": "Title slide from the AI Agent development workshop",
-    "image_caption": "A slide from the AI Agent workshop materials.",
+    "image": "agent-workshop-screen.png",
+    "image_alt": "KU Agent Lab workshop site showing the lecture introduction and navigation",
+    "image_caption": "The KU Agent Lab workshop interface.",
     "fit": "cover",
     "overview": "KU Agent Lab is a lecture and workshop site for exploring AI agent development. It brings course materials, demonstrations, and an interactive workspace together in one place.",
     "features": [
@@ -164,10 +164,10 @@
       "Next.js"
     ],
     "summary": "A web ordering interface for an event, featuring menus and table-based orders.",
-    "image": "ordering-menu.webp",
-    "image_alt": "A menu photo from the ordering project assets",
-    "image_caption": "A menu photograph from the project assets.",
-    "fit": "cover",
+    "image": "ordering-logo.png",
+    "image_alt": "Neon heart logo for the Information and Nursing one-day event",
+    "image_caption": "Logo shown when opening the ordering site.",
+    "fit": "contain",
     "overview": "An event ordering frontend built with Next.js. The code includes a menu interface, quantity selection, an order summary, and a table-specific ordering route.",
     "features": [
       "Menu and drink selection with quantity controls.",
@@ -208,32 +208,5 @@
       "JavaScript",
       "Generative AI"
     ]
-  },
-  {
-    "id": "kuconut",
-    "title": "KUconut",
-    "year": "2024",
-    "category": "Web & Services",
-    "tags": [
-      "Campus Life",
-      "Web App",
-      "React"
-    ],
-    "summary": "A campus-life web frontend organized around activities, food, study, and more.",
-    "image": "kuconut-illustration.svg",
-    "image_alt": "Illustration of campus activity categories",
-    "image_caption": "Illustration created for this page; the repository did not include a project screenshot.",
-    "fit": "cover",
-    "overview": "KUconut is a campus-life web frontend with sections for activities, food, study, and other experiences. The repository contains the React application and its page structure.",
-    "features": [
-      "Separate Eat, Play, Study, and Extra sections.",
-      "Pages for exploring, filtering, and creating entries.",
-      "A personal page and navigation across categories."
-    ],
-    "stack": [
-      "React",
-      "JavaScript"
-    ],
-    "github": "https://github.com/Kuconut/Kuconut_FE"
   }
 ]

@@ -11,7 +11,7 @@ title: Projects
   </header>
   <div class="projects-toolbar" aria-label="Filter projects">
     <div class="project-filters">
-      <button type="button" class="project-filter is-active" data-project-filter="all" aria-pressed="true">All <span>08</span></button>
+      <button type="button" class="project-filter is-active" data-project-filter="all" aria-pressed="true">All <span>{% if site.data.projects.size < 10 %}0{% endif %}{{ site.data.projects.size }}</span></button>
       <button type="button" class="project-filter" data-project-filter="AI &amp; Research" aria-pressed="false">AI &amp; Research</button>
       <button type="button" class="project-filter" data-project-filter="Web &amp; Services" aria-pressed="false">Web &amp; Services</button>
     </div>
