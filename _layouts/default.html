@@ -6,10 +6,10 @@
     <title>{% if page.title and page.title != "" %}{{ page.title }} · {% endif %}{{ site.title }}</title>
     <meta name="description" content="{{ site.description }}">
     <meta name="theme-color" content="#ffffff">
+    <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/brand/circle_blue.svg' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/brand/icon-32.png' | relative_url }}">
+    <link rel="apple-touch-icon" href="{{ '/assets/images/brand/apple-touch-icon.png' | relative_url }}">
     {% if site.author.avatar %}
-    <link rel="icon" type="image/png" href="{{ site.author.avatar | relative_url }}">
-    <link rel="icon" type="image/svg+xml" sizes="any" href="{{ '/assets/images/favicon.svg' | relative_url }}">
-    <link rel="apple-touch-icon" href="{{ site.author.avatar | relative_url }}">
     <meta property="og:image" content="{{ site.author.avatar | absolute_url }}">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:image" content="{{ site.author.avatar | absolute_url }}">
